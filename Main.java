@@ -19,7 +19,6 @@ public class Main {
             System.out.println("1. Курсы");
             System.out.println("2. Преподователи");
             System.out.println("3. Списки");
-            System.out.println("4. Сохранение");
             System.out.println("0. Выход");
             int result = scan.nextInt();
             switch (result) {

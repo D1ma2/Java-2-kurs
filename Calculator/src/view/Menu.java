@@ -12,10 +12,10 @@ public class Menu {
     Tokenizer tokenizer = new Tokenizer();
     Log log = new Log();
 
-    ArrayList<String> startLog = new ArrayList<>(); // нынешняя история
-    ArrayList<String> lastStart = new ArrayList<>(); // история прошлой сессии
-    ArrayList<String> fullLog = new ArrayList<>(); // история всех сессий
-    ArrayList<String> select = new ArrayList<>(); // список отдельных уравнений
+    ArrayList<String> startLog = new ArrayList<>(); 
+    ArrayList<String> lastStart = new ArrayList<>(); 
+    ArrayList<String> fullLog = new ArrayList<>(); 
+    ArrayList<String> select = new ArrayList<>(); 
 
     public void menu(){
         System.out.println("--- MENU ---");
